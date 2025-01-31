@@ -1,16 +1,10 @@
 # Include trycatch.sh as a library
 source ~/trycatch.sh
 
-eval $(/opt/homebrew/bin/brew shellenv)
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
 ## Aliases
 alias home='cd ~/.'
 alias ll="ls -la"
-alias reload='source ~/.zshrc'
+alias reload='source ~/.bashrc'
 alias findpid='lsof -i :$1'
 
 #GIT
