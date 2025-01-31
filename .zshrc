@@ -32,8 +32,8 @@ alias gdco='git push origin +HEAD^:$1'
 alias update-angular-minor='npx npm-check-updates --upgrade --target "minor" --filter "/@angular.*/"'
 
 #Python
-alias python='/usr/bin/python3'
-alias p38='/opt/homebrew/bin/python3.8'
+alias python='python3'
+alias python38='python3.8'
 alias pyenv='python -m venv $1'
 alias pyinstall='pip3 install -r ./requirements.txt'
 
@@ -313,4 +313,3 @@ docker_kill_like() {
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
-alias python=/usr/bin/python3
