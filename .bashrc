@@ -303,12 +303,3 @@ docker_kill_like() {
     fi
   done
 }
-
-export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
-alias python=/usr/bin/python3
-
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
